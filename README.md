@@ -1,6 +1,6 @@
 Thread pool
 ============
-A simple thread pool for python 2.x+
+A simple thread pool for python 2.x+<br/>
 If you are missing ThreadPoolExecutor in python 2.x, here is a simple thread pool manager. 
 
 Import:

@@ -1,4 +1,4 @@
-Thread pool
+SimpleThreads - A simple thread pool utility
 ============
 A simple thread pool for python 2.x+<br/>
 If you are missing ThreadPoolExecutor in python 2.x, here is a simple thread pool manager. 
@@ -6,7 +6,7 @@ If you are missing ThreadPoolExecutor in python 2.x, here is a simple thread poo
 Import:
 ============
 
-       from threadpool.ThreadPool import ThreadPool
+       from simplethreads.ThreadPool import ThreadPool
 
 Usage:
 ============
@@ -23,7 +23,7 @@ Usage:
         
 - Create a thread pool to schedule your tasks.
     
-        from threadpool.ThreadPool import ThreadPool
+        from simplethreads.ThreadPool import ThreadPool
 
         # Create thread pool with nums threads
         pool = ThreadPool(nums)

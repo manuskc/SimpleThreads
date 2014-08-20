@@ -1,1 +1,1 @@
-Visit https://github.com/manuskc/ThreadPool for more info.
+Visit https://github.com/manuskc/SimpleThreads for more info.

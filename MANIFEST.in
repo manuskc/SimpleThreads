@@ -1,1 +1,3 @@
-include *.txtrecursive-include docs *.txt
+include *.txt
+recursive-include docs *.txt
+

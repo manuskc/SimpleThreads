@@ -1,1 +1,0 @@
-from ThreadPool import ThreadPooldef task_a():    print 'Do task A'def task_b(n):    print str(n)def _main():    pool = ThreadPool(10)    for _ in range(1000):        pool.process(task_a)    for n in range(1000):        pool.process(task_b, n)    # Cleanup before exit    pool.shutdown()if __name__ == "__main__":    _main()

@@ -2,11 +2,6 @@ from Queue import Queue,Empty
 from threading import Thread, Lock, Condition
 import logging
 
-
-FORMAT = '%(asctime)s (%(thread)-2s) %(message)s'
-logging.basicConfig(format=FORMAT)
-
-
 class _WorkerThread (Thread):
     logger = logging.getLogger('_WorkerThread')
 
